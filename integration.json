@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "8f410768b464fe583c3212762efe72e895c8c4fde4fab7aa46cbb0e56a297655",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developers.aimtell.com/api-reference/sites-openapi.json",
+    "https://developers.aimtell.com/api-reference/push-openapi.json",
+    "https://developers.aimtell.com/api-reference/segments-openapi.json",
+    "https://developers.aimtell.com/api-reference/misc-openapi.json",
+    "https://developers.aimtell.com/api-reference/openapi.json"
+  ],
+  "id": "aimtell-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aimtell MCP setup and connection checker",
+  "description": "Generate Aimtell MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aimtell",
+  "appName": "Aimtell",
+  "providerDocs": "https://developers.aimtell.com/api-reference/sites-openapi.json",
+  "providerWebsite": "https://aimtell.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developers.aimtell.com/api-reference/introduction",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aimtell-mcp"
+}
