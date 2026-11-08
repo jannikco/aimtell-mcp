@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aimtell",
+      "description": "Connect AI agents to Aimtell using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aimtell/SKILL.md": "4751d42a5847686d6588370e877f4da36332f90edefd8a180327e60127d7d077"
+  }
+}
